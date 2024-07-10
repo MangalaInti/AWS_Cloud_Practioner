@@ -1,0 +1,31 @@
+1. what is cloud computing
+   Cloud computing is a service that is avaliable over the internet e.g DB storage, Launch applications and other IT services. It is Pay as you go pricing
+
+--Amazon Ec2
+It is one most popular service.
+EC2 = Elastic Cloud Compute = Infrastructure as a Service (Iaas)
+ --Key Features
+    1. Renting virtual machines(EC2)
+    2. Storing data on virtual drives(EBS)
+    3. Distributing load across machines(ELB)
+--Dedicated Instance
+  Dedicated Instances are Amazon EC2 instances that run in a virtual private cloud (VPC) on hardware that's dedicated to a single customer. Dedicated Instances that belong to different AWS accounts are physically isolated at a hardware level, even if those accounts are linked to a single payer account
+
+--AWS disaster recovery solutions
+Multi-site-active-active
+You can run your workload simultaneously in multiple Regions as part of a multi-site active/active. There is no such thing as failover in this scenario
+
+AWS is fully responsible for securing the infrastructure that it provides to the customers
+
+Which design principle of AWS Cloud Architecture offers distribution of workloads among multiple Availability Zones ?
+
+Design for Failure 
+AWS suggests that you distribute your workloads across multiple AZs. In case of any single AZ failure, your application will be available and can be accessed continuously
+
+AWS Cloud benefits
+Capital expenditure(Capex) translates to variable expenditure
+Companies gain better agility for their business
+
+What is Amazon DynamoDB
+ NoSQL database 
+
